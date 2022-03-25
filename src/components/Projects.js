@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { useMediaQuery } from 'react-responsive';
 import techblog from '../assets/images/techblog.png'
 import project1 from '../assets/images/project1.png'
 import planner from '../assets/images/planner.png'
@@ -8,12 +8,12 @@ import text from '../assets/images/text.png'
 
 
 export default function Projects() {
-
+    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
     return (
 
         <>
             <div className=' h-screen w-screen flex-col flex  place-content-center'>
-
+                {isMobile ? (<p className='pb-6 text-center self-center text-2xl'>Projects</p>) : (<p className='text-center self-center pb-6 text-2xl'>Projects<br />Use arrow keys or center mouse button to navigate</p>)}
                 <div className="carousel carousel-center self-center items-center md:w-5/8 px-2 w-2/3 h-1/2 md:h-5/8 rounded-box" >
 
                     <div id='bandcamp' className='flex flex-col h-full md:w-1/3 w-full items-center justify-around carousel-item place-content-center card bg-contain'>
