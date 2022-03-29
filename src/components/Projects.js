@@ -67,11 +67,11 @@ export default function Projects() {
                     </div>
 
                     <div className='flex carousel-item card h-full w-full md:w-1/3 justify-around  flex-col'>
-                        <a href="https://github.com/JonkHunkle/Project-2" target="_blank"
+                        <a href="https://lifetracker-project2.herokuapp.com/" target="_blank"
                             className='text-4xl btn self-center hover:text-green-400'>LifeTracker
                         </a>
                         <img src={tracker} className='h-1/3  self-center' />
-                        <a href="https://github.com/JonkHunkle/Project-2" target='_blank' className='text-2xl hover:text-green-400 self-center btn'>Repo</a>
+                        <a href="https://github.com/JonkHunkle/lifetracker" target='_blank' className='text-2xl hover:text-green-400 self-center btn'>Repo</a>
                         <p className='text-center'>Allows authenticated users full CRUD functionality to keep track of a busy life.<br /> Technologies used:
                             <p>Express.js,
                                 Node.js,
