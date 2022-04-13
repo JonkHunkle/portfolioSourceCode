@@ -12,7 +12,11 @@ export default function About() {
                 <div className='flex flex-col  bg-opacity-50 rounded-lg h-max bg-slate-300 py-12 md:p-12 self-center content-center'>
                     <h1 className='pb-10 text-7xl text-center underline'>About David</h1>
                     <p className='font-black text-md self-center text-center
-                  w-1/2 md:w-2/3'>Welcome!<br />I am a front-end web developer leveraging a bartending and music background to pursue a fast and flexible web experience using critical thinking, creativity and anticipation of needs. After recently completing a full-stack certificate to develop  my abilities in Javascript and React to ensure smooth UX, I have been able to work in multiple teams in various positions to create projects using Express, Node, SQL and NoSQL. I have found that the different perspectives of team members to be integral in finding intuitive and unique answers for everyday life.
+                  w-1/2 md:w-2/3'>Welcome!<br />I am a front-end web developer leveraging a bartending and <a
+                            href="https://aboyandhiscomputer.bandcamp.com/releases"
+                            target="_blank"
+                            className='hover:text-green-700 underline decoration-4'>music
+                        </a> background to pursue a fast and flexible web experience using critical thinking, creativity and anticipation of needs. After recently completing a full-stack certificate to develop  my abilities in Javascript and React to ensure smooth UX, I have been able to work in multiple teams in various positions to create projects using Express, Node, SQL and NoSQL. I have found that the different perspectives of team members to be integral in finding intuitive and unique answers for everyday life.
                     </p>
                 </div>
             </div>

@@ -54,7 +54,7 @@ export default function Contact() {
         <div className='h-screen flex flex-col place-content-center w-full'>
             <div className='flex flex-col justify-around '>
 
-                <p className=' m-5 text-2xl text-center '>Contact page is currently under construction!<br /> Feel free to email me at czerwinskicodes@gmail.com or reach out using the links bellow!</p>
+                <p className=' m-5 text-2xl text-center '> Feel free to email me at czerwinskicodes@gmail.com or reach out using the links bellow!</p>
 
                 <div name='infoForm' className='flex h-full flex-col'>
                     <div className="flex flex-col self-center place-content-center contents-center w-2/3 p-6 rounded-lg shadow-lg bg-slate-200 bg-opacity-25">

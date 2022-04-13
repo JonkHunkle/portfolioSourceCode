@@ -16,15 +16,7 @@ export default function Projects() {
                 {isMobile ? (<p className='pb-6 text-center self-center text-2xl'>Projects</p>) : (<p className='text-center self-center pb-6 text-2xl'>Projects<br />Use arrow keys or center mouse button to navigate</p>)}
                 <div className="carousel carousel-center self-center items-center md:w-5/8 px-2 w-2/3 h-1/2 md:h-5/8 rounded-box" >
 
-                    <div id='bandcamp' className='flex flex-col h-full md:w-1/3 w-full items-center justify-around carousel-item place-content-center card bg-contain'>
-                        <a
-                            href="https://aboyandhiscomputer.bandcamp.com/releases"
-                            target="_blank"
-                            className='hover:text-green-400 btn self-center text-4xl'>Bandcamp
-                        </a>
-                        <p className='text-center text-white'>One-man music project</p>
 
-                    </div>
                     <div className=' card carousel-item items-center justify-around place-content-center h-full md:w-1/3 w-full flex flex-col'>
                         <a className=' w-fit h-min self-center text-4xl btn  hover:text-green-400'
                             href="https://techblawg.herokuapp.com/"
